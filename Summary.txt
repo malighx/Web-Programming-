@@ -1,0 +1,17 @@
+I have built a simple To-Do List API using Node.js and Express. This basic backend allows you to view all tasks, add new ones, and delete existing tasks. It serves as a foundational structure for developing a complete to-do application.
+API Endpoints:
+1. Retrieve All Tasks
+View the complete list of tasks.
+Method: GET
+Endpoint: /tasks
+2. Add a New Task
+Create a new task by sending a JSON object.
+Method: POST
+Endpoint: /addTask
+Example Request Body:
+{ "taskName": "Cricket" }
+3. Delete a Task by ID
+Remove a task by specifying its ID.
+Method: DELETE
+Endpoint: /task/:id
+Example: /task/1
